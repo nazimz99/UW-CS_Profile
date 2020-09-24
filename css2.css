@@ -1,0 +1,271 @@
+html {
+    font-size: 81.25%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: row;
+}
+
+body {
+    background-color: gray;
+    font-size: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+}
+
+::after, ::before {
+    box-sizing: inherit;
+}
+
+.Header {
+    background-color: gray;
+    margin-left: 3%;
+}
+
+.Header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.Header img {
+    display: inline-block;
+    height: 35px;
+    width: 45px;
+    /*max-width: 30px;*/
+}
+
+.TopDivider {
+    background-color: rgb(77, 77, 77);
+    max-height: 1vh;
+    border: 1px ridge rgb(128, 128, 128, 0.3);
+}
+
+.SidePanel {
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+}
+
+.SideProfile img {
+    height: 300px;
+    width: 300px;
+    margin-right: 2%;
+    margin-top: 8%;
+}
+
+.Work {
+    display: inline-block;
+}
+
+.Work h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 200;
+    opacity: 0.5
+}
+
+
+.WorkDivider {
+    background-color: rgb(77, 77, 77);
+    width: 270px;
+    max-height: 1vh;
+    border: 1px ridge rgb(128, 128, 128, 0.3);
+    display: inline-block;
+}
+
+.PrimaryEducation h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.PrimaryEducation h3 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    opacity: 1;
+    line-height: 80%;
+}
+
+.Primary {
+    display: inline-block;
+    max-width: auto;
+    max-height: auto;
+    background-color: rgb(148, 148, 148);
+    margin-left: 2%;
+}
+
+.Primary h2 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.PrimaryWork h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.PrimaryWork h3 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    opacity: 1;
+    line-height: 80%;
+}
+
+.Secondary {
+    display: inline-block;
+    max-width: auto;
+    max-height: auto;
+    background-color: rgb(148, 148, 148);
+}
+
+.Secondary h2 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.Skills h2 {
+    font-size: 1.1rem;
+    opacity: 0.5;
+    font-weight: 200;
+}
+
+.Skills h3 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 45%;
+}
+
+
+.MidPanel {
+    position: relative;
+    display: inline-block;
+    left: 200px;
+    bottom: 300px;
+}
+
+.MainProfile h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.MainProfile h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.MainProfile img {
+    width: 1.3vw;
+    height: 2.5vh;
+}
+
+.Message {
+    display: inline-block;
+}
+
+.Message :hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.Message h2 {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.Message a {
+    color: black;
+}
+
+.Message img {
+    display: inline-block;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.Contact {
+    display: inline-block;
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+}
+
+.Contact h2 {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.Contact img {
+    display: inline-block;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.About {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.About h2 {
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.About img {
+    display: inline-block;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.AboutDivider {
+    background-color: rgb(77, 77, 77);
+    min-width: auto;
+    max-height: 1vh;
+    border: 1px ridge rgb(128, 128, 128, 0.3);
+}
+
+.ContactInformation {
+    position: relative;
+    top: 20px;
+}
+
+.ContactInformation h3 :hover {
+    background-color: black;
+}
+
+.ContactInformation h3 {
+    font-size: 1.1rem;
+}
+
+.ContactInformation a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+.ContactInformation h4 {
+    font-size: 1.1rem;
+    opacity: 0.5;
+}
+
+.PersonalInformation {
+    position: relative;
+    top: 40px;
+}
+
+.PersonalInformation h3 {
+    font-size: 1.1rem;
+}
+
+.PersonalInformation a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+.PersonalInformation h4 {
+    font-size: 1.1rem;
+    opacity: 0.5;
+}
